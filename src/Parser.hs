@@ -1,10 +1,6 @@
 {-# LANGUAGE RecordWildCards #-}
 
-module Parser
-  -- ( module Parser
-  -- , module Text.Megaparsec
-  -- )
-where
+module Parser (pCommand) where
 
 import Control.Applicative
 import Control.Monad
